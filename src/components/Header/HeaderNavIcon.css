@@ -1,0 +1,22 @@
+.header__navbar {
+  display: flex;
+  flex-direction: column;
+  color: grey;
+  align-items: center;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.header__navbar:hover {
+  color: black;
+}
+
+.header__title {
+  display: flex;
+  font-size: xx-small;
+}
+
+.header__icon {
+  width: 2px;
+  height: 15px !important;
+}
