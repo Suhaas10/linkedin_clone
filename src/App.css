@@ -7,4 +7,7 @@
 
 .app__body {
   display: flex;
+  margin-top: 35px;
+  margin-left: 20px;
+  margin-right: 20px;
 }

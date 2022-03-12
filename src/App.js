@@ -7,6 +7,7 @@ import Leftbar from "./components/Leftbar/Leftbar";
 import Feed from "./components/Feed/Feed";
 import Login from "./components/Login";
 import { auth } from "./components/firebase";
+import Widgets from "./components/Widgets/Widgets";
 
 function App() {
   const user = useSelector(selectUser);
@@ -39,7 +40,7 @@ function App() {
         <div className="app__body">
           <Leftbar />
           <Feed />
-          {/*rightbar*/}
+          <Widgets />
         </div>
       )}
 

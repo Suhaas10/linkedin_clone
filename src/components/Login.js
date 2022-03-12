@@ -31,6 +31,7 @@ const Login = () => {
 
   const register = () => {
     if (!name) {
+      //absolute position popup
       return alert("Please enter a full name");
     }
 
